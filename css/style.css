@@ -1,0 +1,25 @@
+:root{
+	--black-text-color:#000;
+	--dark-grey-text-color:#283136;
+	--white-text-color:#FFF;
+	--light-grey-text-color:#444;
+	--lightest-grey-text-colot:#666;
+	--bacground-color-body:#FFF;
+	--bacground-color-slider-header:#EEE;
+}
+
+
+body {
+    font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	background-color:var(--bacground-color-body);
+}
+
+.nav {
+	background-color:var(--bacground-color-slider-header);
+}
+
+.slider {
+	background-color:var(--bacground-color-slider-header);
+}

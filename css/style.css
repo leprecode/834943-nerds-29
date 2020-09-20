@@ -3,9 +3,11 @@
 	--dark-grey-text-color:#283136;
 	--white-text-color:#FFF;
 	--light-grey-text-color:#444;
-	--lightest-grey-text-colot:#666;
+	--lightest-grey-text-color:#666;
 	--bacground-color-body:#FFF;
 	--bacground-color-slider-header:#EEE;
+	--nav-hover-text-color:#FB565A;
+	--nav-focus-text-color:rgba(0,0,0,0.3);
 }
 
 
@@ -14,12 +16,169 @@ body {
 	font-style: normal;
 	font-weight: normal;
 	background-color:var(--bacground-color-body);
+	color:var(--black-text-color);
 }
 
+a { 
+	text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.invisible{
+	display:none;
+}
+
+/*Index.html*/
+
+/*Навигация*/
 .nav {
 	background-color:var(--bacground-color-slider-header);
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 30px;
+	text-transform: uppercase;
 }
 
+.nav ul {
+	list-style: none;
+}
+
+.nav a:hover {
+	color:var(--nav-hover-text-color);
+}
+
+.nav a:focus {
+	color:var(--nav-focus-text-color);
+}
+
+/*Слайдер*/
 .slider {
 	background-color:var(--bacground-color-slider-header);
+}
+
+.slider-slogan {
+	font-size: 55px;
+	line-height: 55px;
+	font-weight: 500;
+}
+
+.slider-text {
+	line-height: 24px;
+}
+
+.slider-button {
+	font-weight: 500;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.slider-button a:focus{
+	color:var(--nav-focus-button-color);
+}
+
+/*Услуги*/
+
+.services h3 {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.services ul {
+	list-style: none;
+}
+
+.services p {
+	color:var(--dark-grey-text-color);
+}
+
+.services button {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+	line-height: 18px;
+}
+.services button:focus {
+	color:var(--nav-focus-text-color);
+}
+
+/*О нас*/
+
+.about ul{
+	list-style: none;
+}
+
+.about-slogan {
+	font-weight: 500;
+	font-size: 45px;
+	line-height: 45px;
+}
+
+.about-text{
+	color: var(--dark-grey-text-color);
+	line-height: 24px;
+}
+
+.about-orders {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: var(--dark-grey-text-color);
+	line-height: 24px;
+}
+
+.about-orders-list li {
+	line-height: 24px;
+	color: var(--dark-grey-text-color);
+}
+
+.about-statisctica-heading {
+	font-weight:700;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.about-list-percent {
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 64px;
+} 
+
+.about-list-percent span{
+	font-size: 26px;
+	line-height: 40px;
+} 
+
+.about-list-conditions {
+	color: var(--dark-grey-text-color);
+	line-height: 24px;
+}
+
+/*Партнеры*/
+
+/*Футер*/
+.address-heading {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.address {
+	line-height: 18px;
+	color: var(--lightest-grey-text-color);
+}
+
+.address-button {
+	font-weight: 500;
+	color: var(--white-text-color);
+	text-align: center;
+	text-transform: uppercase;
 }

@@ -8,6 +8,24 @@
 	--bacground-color-slider-header:#EEE;
 	--nav-hover-text-color:#FB565A;
 	--nav-focus-text-color:rgba(0,0,0,0.3);
+	--focus-text-color:rgba(255, 255, 255, 0.3);
+	--catelog-sortng-type-light-dark:rgba(0,0,0,0.6);
+	--hover-background-color-list-of-pages:#DFDFDF;
+	--focus-background-color-list-of-pages:#D5D5D5;
+	--active-background-color-list-of-pages:rgba(0, 0, 0, 0.0001);
+	
+	--lightest-red-color:#FB565A;
+	--light-red-color:#E74246;
+	--red-color:#D7373B;
+
+	--lightest-green-color:#00CA74;
+	--light-green-color:#00BC6C;
+	--green-color:#00AA62;
+
+	--lightest-yellow-color:#EFC84A;
+	--light-yellow-color:#EAB534;
+	--yellow-color:#E5A722;
+
 }
 
 
@@ -49,6 +67,10 @@ img {
 	list-style: none;
 }
 
+.nav a {
+	color:var(--black-text-color);
+}
+
 .nav a:hover {
 	color:var(--nav-hover-text-color);
 }
@@ -60,6 +82,7 @@ img {
 /*Слайдер*/
 .slider {
 	background-color:var(--bacground-color-slider-header);
+
 }
 
 .slider-slogan {
@@ -72,15 +95,26 @@ img {
 	line-height: 24px;
 }
 
+
+
 .slider-button {
 	font-weight: 500;
 	line-height: 18px;
 	text-transform: uppercase;
+	background-color: var(--lightest-red-color);
+	color: var(--white-text-color);
 }
 
-.slider-button a:focus{
-	color:var(--nav-focus-button-color);
+.slider-button:hover{
+	background-color: var(--light-red-color);
 }
+
+.slider-button:focus{
+	color:var(--focus-text-color);
+	background-color: var(--red-color);
+}
+
+	
 
 /*Услуги*/
 
@@ -99,6 +133,8 @@ img {
 	color:var(--dark-grey-text-color);
 }
 
+/*Кнопки заказать*/
+
 .services button {
 	text-transform: uppercase;
 	text-align: center;
@@ -108,6 +144,52 @@ img {
 .services button:focus {
 	color:var(--nav-focus-text-color);
 }
+
+/*Красная*/
+
+.services-red-button{
+	background-color:var(--lightest-red-color);
+}
+
+.services-red-button:hover{
+	background-color:var(--light-red-color);
+}
+
+.services-red-button:focus{
+	background-color:var(--red-color);
+}
+
+
+/*Зеленая*/
+
+.services-green-button{
+	background-color:var(--lightest-green-color);
+}
+
+.services-green-button:hover{
+	background-color:var(--light-green-color);
+}
+
+.services-green-button:focus{
+	background-color:var(--green-color);
+}
+
+
+
+/*Желтая*/
+
+.services-yellow-button{
+	background-color:var(--lightest-yellow-color);
+}
+
+.services-yellow-button:hover{
+	background-color:var(--light-yellow-color);
+}
+
+.services-yellow-button:focus{
+	background-color:var(--yellow-color);
+}	
+
 
 /*О нас*/
 
@@ -142,7 +224,6 @@ img {
 	font-weight:700;
 	line-height: 24px;
 	text-transform: uppercase;
-	text-align: center;
 }
 
 .about-list-percent {
@@ -181,4 +262,89 @@ img {
 	color: var(--white-text-color);
 	text-align: center;
 	text-transform: uppercase;
+	background-color: var(--lightest-red-color);
 }
+
+.address-button:hover {
+	background-color: var(--light-red-color);
+}
+
+.address-button:focus {
+	background-color: var(--red-color);
+	color:var(--focus-text-color);
+}
+
+
+.footer-be-friend {
+	font-weight: 700;
+	font-size:36px;
+	line-height: 36px;
+}
+
+.footer-discount {
+	color: var(--light-grey-text-color);
+	line-height: 22px;
+}
+
+/*Каталог*/
+
+.templates {
+	list-style: none;
+}
+
+/*Сортировка шаблонов*/
+
+.sorting {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.sorting-type  {
+	list-style: none;
+}
+
+.sorting-type button{
+	font-size: 14px;
+	list-style: none;
+	text-transform: uppercase;
+	color: var(--nav-focus-text-color);
+}
+
+.sorting-type button:hover {
+	color: var(--catelog-sortng-type-light-dark);
+}
+
+.sorting-type button:focus {
+	color: var(--black-text-color);
+}
+
+/*Кнопки страниц*/
+
+.list-of-pages {
+	list-style: none;
+}
+
+.list-of-pages a {
+	font-weight: 500;
+	color: var(--black-text-color);
+	background-color: var(--bacground-color-slider-header);
+}
+
+.list-of-pages a:hover {
+	background-color: var(--hover-background-color-list-of-pages);
+}
+
+.list-of-pages a:focus {
+	background-color: var(--focus-background-color-list-of-pages);
+	color: var(--nav-focus-text-color);
+}
+
+/* Меняет цвет фона при нажатии, а не в активном состоянии
+
+.list-of-pages a:active {
+	background-color: var(--active-background-color-list-of-pages);
+}
+
+*/	

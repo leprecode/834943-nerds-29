@@ -28,9 +28,9 @@
 
 }
 
-
+/*Подключить альтернативные шрифты*/
 body {
-    font-family: Roboto;
+  	font-family: Roboto; 
 	font-style: normal;
 	font-weight: normal;
 	background-color:var(--bacground-color-body);
@@ -284,6 +284,12 @@ img {
 .footer-discount {
 	color: var(--light-grey-text-color);
 	line-height: 22px;
+}
+
+.map {
+	background-image:url("../img/map1.jpg");
+	background-repeat: no-repeat;
+	background-size:1440px 416px;
 }
 
 /*Каталог*/

@@ -30,7 +30,7 @@
 
 /*Подключить альтернативные шрифты*/
 body {
-  	font-family: Roboto; 
+  	font-family: Roboto, Arial, sans-serif; 
 	font-style: normal;
 	font-weight: normal;
 	background-color:var(--bacground-color-body);
@@ -55,7 +55,7 @@ img {
 /*Навигация*/
 .nav {
 	background-color:var(--bacground-color-slider-header);
-	font-family: Roboto;
+
 	font-size: 16px;
 	font-weight: 500;
 	font-style: normal;

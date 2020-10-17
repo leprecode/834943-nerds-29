@@ -195,9 +195,6 @@ img {
 
 .about ul{
 	list-style: none;
-	margin: 0;
-  	padding: 0;
-
 }
 
 .about-slogan {
@@ -289,6 +286,11 @@ img {
 	line-height: 22px;
 }
 
+.map {
+	background-image:url("../img/map1.jpg");
+	background-repeat: no-repeat;
+	background-size:1440px 416px;
+}
 
 /*Каталог*/
 
@@ -352,144 +354,3 @@ img {
 }
 
 */	
-
-/*CSS Grid*/ 
-
-/*Index.html*/
-
-.page {
-	height: 100%;
-}
-
-.page-body {
-	 min-height: 100%;
-	 width: 1440px;
- 	 display: grid;
- 	 grid-template-rows: min-content 1fr min-content;
-}
-
-/*Хэдер*/
-
-.header-wrapper {
-	width: 1160px;
-	margin: 0 auto;
-}
-
-.main-navigation {
-	display: grid;
-	grid-template-columns: 160px 1fr min-content;
-}
-
-.main-navigation ul {
-	margin: 0;
-  	padding: 0;
-}
-
-/*Слайдер*/
-
-.slider-wrapper {
-	width: 1160px;
-	margin: 0 auto;
-}
-
-		
-
-/*Услуги*/
-.services {
-	margin-top:80px;
-}
-
-.services-wrapper {
-	width: 1160px;
-	margin: 0 auto;
-}
-
-.services-list {
-	margin: 0;
-  	padding: 0;
-  	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	column-gap: 100px;
-}
-
-/*О нас*/
-
-.about {
-	width: 1160px;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 1fr 360px;
-}
-
-.about-list-of-percent {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-
-}
-
-/*Партнеры*/
-
-.partners {
-	width: 1160px;
-	margin: 0 auto;
-
-}
-
-.partners-list {
-	margin: 0;
-  	padding: 0;
-  	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	list-style:none;
-}
-
-
-
-/*Футер*/
-
-.map {
-	background-image:url("../img/map1.jpg");
-	background-repeat: no-repeat;
-	background-size:1440px 416px;
-	width: 1440px;
-	height: 416px;
-}
-
-.footer-bottom {
-	width: 1160px;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-.footer-bottom-social {
-	margin: 0;
-  	padding: 0;
-	list-style:none;
-}
-
-
-/*CSS Grid catalog.html*/
-
-.title-of-page {
-	background-color:var(--bacground-color-slider-header);
-	text-align: center;
-}
-
-.catalog-wrapper-grid {
-	width: 1160px;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 260px 1fr;
-}
-
-.section-of-templates {
-	grid-column: 2/3;
-}
-
-.templates {
-	display:grid;
-	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 40px;
-	grid-row-gap: 30px;
-}

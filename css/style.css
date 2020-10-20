@@ -376,7 +376,7 @@ img {
 .header-wrapper {
 	width: 1160px;
 	margin: 0 auto;
-		padding:0px 20px;
+	padding:0px 20px;
 }
 
 .main-navigation {
@@ -394,6 +394,7 @@ img {
 .slider-wrapper {
 	width: 1160px;
 	margin: 0 auto;
+	padding:0px 20px;
 }
 
 		
@@ -406,7 +407,7 @@ img {
 .services-wrapper {
 	width: 1160px;
 	margin: 0 auto;
-
+	padding:0px 20px;
 }
 
 .services-list {
@@ -419,11 +420,13 @@ img {
 
 /*О нас*/
 
-.about {
+.about-wrapper-grid {
 	width: 1160px;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr 360px;
+	padding:0px 20px;
+
 }
 
 .about-list-of-percent {
@@ -437,6 +440,7 @@ img {
 .partners {
 	width: 1160px;
 	margin: 0 auto;
+	padding:0px 20px;
 }
 
 .partners-list {
@@ -465,10 +469,11 @@ img {
 }
 
 .footer-bottom {
-	width:100%;
+	width:1160px;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	padding:0px 20px;
 }
 
 .footer-bottom-social {
@@ -477,9 +482,10 @@ img {
 	list-style:none;
 }
 
-.footer-wrapper {
+.footer-address {
 	width: 1160px;
 	margin: 0 auto;
+	padding:0px 20px;
 }
 
 
@@ -490,11 +496,18 @@ img {
 	text-align: center;
 }
 
+.title-of-page-wrapper {
+	padding:0px 20px;
+	width: 1160px;
+	margin: 0 auto;
+}
+
 .catalog-wrapper-grid {
 	width: 1160px;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 260px 1fr;
+	padding:0px 20px;
 }
 
 .section-of-templates {
@@ -507,3 +520,4 @@ img {
 	grid-column-gap: 40px;
 	grid-row-gap: 30px;
 }
+

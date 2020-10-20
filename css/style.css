@@ -345,6 +345,9 @@ img {
 	color: var(--nav-focus-text-color);
 }
 
+
+
+
 /* Меняет цвет фона при нажатии, а не в активном состоянии
 
 .list-of-pages a:active {
@@ -363,7 +366,7 @@ img {
 
 .page-body {
 	 min-height: 100%;
-	 width: 1440px;
+	 width: 100%;
  	 display: grid;
  	 grid-template-rows: min-content 1fr min-content;
 }
@@ -373,6 +376,7 @@ img {
 .header-wrapper {
 	width: 1160px;
 	margin: 0 auto;
+		padding:0px 20px;
 }
 
 .main-navigation {
@@ -402,6 +406,7 @@ img {
 .services-wrapper {
 	width: 1160px;
 	margin: 0 auto;
+
 }
 
 .services-list {
@@ -432,7 +437,6 @@ img {
 .partners {
 	width: 1160px;
 	margin: 0 auto;
-
 }
 
 .partners-list {
@@ -447,16 +451,21 @@ img {
 
 /*Футер*/
 
+.footer {
+	width: 100%;
+	margin: 0 auto;
+	padding:0px -20px;
+}
+
 .map {
 	background-image:url("../img/map1.jpg");
 	background-repeat: no-repeat;
-	background-size:1440px 416px;
-	width: 1440px;
+	background-size:100% 416px;
 	height: 416px;
 }
 
 .footer-bottom {
-	width: 1160px;
+	width:100%;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -466,6 +475,11 @@ img {
 	margin: 0;
   	padding: 0;
 	list-style:none;
+}
+
+.footer-wrapper {
+	width: 1160px;
+	margin: 0 auto;
 }
 
 

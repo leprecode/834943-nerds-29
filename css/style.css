@@ -356,8 +356,58 @@ img {
 
 */	
 
-/*CSS Grid*/ 
 
+/*FLEX*/
+/*Index.html*/
+
+/*Хэдер*/
+.header-navigation {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.logo {
+	margin-right: 202.13px
+}
+
+.site-navigation {
+	display: flex;
+	flex-basis: 437px;
+	justify-content:space-between;
+}
+
+.user-navigation {
+	margin-left: 285.14px;
+}
+
+/*Футер*/
+.footer-bottom {
+	width:1160px;
+	margin: 0 auto;
+	padding:0px 20px;
+	display: flex;
+
+}
+
+.footer-bottom-social {
+	display:flex;
+	height: 81px;
+	width: 261px;
+
+}
+
+.vkontakte, .facebook, .instagram {
+	display: block;
+	background-color: #E1E1E1;
+	width: 81px; 
+	height: 81px;
+	border-radius:50%;
+}
+
+
+
+/*CSS Grid*/ 
 /*Index.html*/
 
 .page {
@@ -379,12 +429,8 @@ img {
 	padding:0px 20px;
 }
 
-.main-navigation {
-	display: grid;
-	grid-template-columns: 160px 1fr min-content;
-}
 
-.main-navigation ul {
+.site-navigation {
 	margin: 0;
   	padding: 0;
 }
@@ -437,7 +483,7 @@ img {
 
 /*Партнеры*/
 
-.partners {
+.partners-wrapper {
 	width: 1160px;
 	margin: 0 auto;
 	padding:0px 20px;
@@ -450,7 +496,6 @@ img {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	list-style:none;
 }
-
 
 
 /*Футер*/
@@ -467,13 +512,12 @@ img {
 	height: 416px;
 }
 
-.footer-bottom {
-	width:1160px;
-	margin: 0 auto;
+/*.footer-bottom {
+
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 261px 1fr;
 	padding:0px 20px;
-}
+}*/
 
 .footer-bottom-social {
 	margin: 0;
